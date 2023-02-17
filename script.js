@@ -28,6 +28,8 @@ const init = function () {
   currPlayer = 0;
   scores = [0, 0];
   gameOn = true;
+  
+  diceEl.classList.add('hidden');
 
   document
     .querySelector(`.player--${currPlayer}`)
